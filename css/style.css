@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@300;400&display=swap');
+
+:root{
+    --banner-color: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(236,236,236,1) 100%);
+    --text-color: #262626;
+    --bg-color: rgba(255,255,255,0.90)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/SBC.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-banner {
+    width: 100%;
+    padding: 10px 0px;
+    background: var(--banner-color);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 54px;
+    color: var(--text-color);
+}
+
+span {
+    font-weight: bold;    
+}
+
+.main-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 100px 250px;    
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-container {
+    background-color: var(--bg-color);
+    padding: 5%;
+    border: 2px solid var(--bg-color);
+    border-radius: 40px;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--text-color);
+    text-align: justify;
+}
+
+.yt-video {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.curiosidades-list {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 80px;
+}
+
+.social-media {
+    text-align: center;
+}
+.social-media img {
+    width: 60px;
+    margin: 30px;
+}
+
+.social-media img:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.3);
+}
